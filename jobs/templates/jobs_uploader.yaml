@@ -1,0 +1,13 @@
+- job-template:
+    name: jobs-uploader
+    description: 'JOBS Uploader jenkins'
+    project-type: pipelene
+    parameters: 
+      - string:
+          name: REFSPEC
+          default: master
+          description: 'Branch of job uploader'
+    pipeline-scm:
+      scm:
+        - jobs-updater
+      script-path: scripts/jobs_uploader.groovy

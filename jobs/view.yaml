@@ -1,0 +1,30 @@
+---
+  - view:
+      name: "DevOps"
+      view-type: list
+      description: | 
+        <h3>DevOps Jobs</h3>
+      filter-executors: true
+      filter-queue: true
+      columns:
+        - job
+        - status
+        - weather
+        - build-button
+      job-name:
+        - jobs-uploader
+
+  - view:
+      name: "QA"
+      view-type: list
+      description: | 
+        <h3>QA Jobs</h3>
+      filter-executors: true
+      filter-queue: true
+      columns:
+        - job
+        - status
+        - weather
+        - build-button
+      job-name:
+        - jobs-qa
