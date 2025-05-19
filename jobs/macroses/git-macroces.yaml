@@ -3,7 +3,7 @@
     name: 'jobs-uploader'
     scm:
     - git:
-      url: git@test.ru
+      url: git@github.com:dimavasilev/practikaOtus.git
       credentials-id: jenkins
       branches: 
         - FETCH_HEAD
