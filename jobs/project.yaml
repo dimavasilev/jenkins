@@ -3,4 +3,4 @@
     name: jobs_updater'
     job-descriptions: '<h4>Uploader jenkins jobs</h4>'
     jobs:
-    - 'jobs-updater'
+    - 'jobs-uploader'
